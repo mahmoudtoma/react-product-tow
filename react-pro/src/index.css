@@ -1,0 +1,113 @@
+:root{
+    --main-color:#DD4132;
+}
+body{
+    box-sizing: border-box;
+    background-color: #181d25;
+    color: white;
+}
+.Link{
+    text-decoration: none;
+}
+.navbar{
+    background: linear-gradient(
+        180deg,rgba(16,20,31,.8) 
+        .98%,rgba(16,20,31,.4) 
+        59.23%,rgba(16,20,31,.2) 
+        78.16%,rgba(16,20,31,.0001) 
+        96.12%);
+    
+}
+.navbar-brand{
+    font-family: 'Passion One', cursive;
+    font-size: 40px;
+    color: rgb(255, 251, 251);
+}
+.navbar-ul{
+    margin-left: 40px;
+}
+.nav-item{
+    
+}
+.nav-item a{
+    color: white;
+   
+}
+.form-control{
+    background-color: rgb(255, 251, 251,.01);
+}
+.box-all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.box img{
+    width: 250px;
+    border-radius: 5px;
+}
+.box .text{
+    color: white;
+    margin-left: 5px;
+}
+.box .text .name{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 200px;
+    text-decoration: none;
+}
+.box .text .name:hover{
+    color: var(--main-color);
+}
+.box .text-tow{
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.box .text-tow .type{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.pagination{
+    width: 100%;
+}
+.row .information:not(.info){
+    background-color: rgb(255, 251, 251,.07);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.row .information .men{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row .information img{
+    width: 250px;
+}
+.row .information .details{
+    width: calc(100% - 250px);
+    text-align: center;
+}
+.row .information .story{
+    height: 100px;
+}
+.row .information .button{
+    text-align: center;
+}
+.row .information button{
+    text-align: center;
+    background-color: #DD4132;
+    color: white;
+    border: none;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
